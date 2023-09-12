@@ -1,0 +1,631 @@
+DEBUG:root:2023-03-19 13:37:46.612358::CSV Data
+DEBUG:root:2023-03-21 13:40:48.296569::Device List
+DEBUG:root:2023-03-21 13:40:48.941189::Device List
+DEBUG:root:2023-03-21 13:43:08.361696::Device List
+DEBUG:root:2023-03-21 13:43:08.868257::Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-21 13:44:19.068578::Device List
+DEBUG:root:2023-03-21 13:44:19.568145::Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-21 13:45:04.796655::Device List
+DEBUG:root:2023-03-21 13:45:05.308654::Device List
+DEBUG:root:2023-03-21 13:46:00.813792::Device List
+DEBUG:root:2023-03-21 13:46:01.330791::Device List
+DEBUG:root:2023-03-21 13:47:25.575850::Device List
+DEBUG:root:2023-03-21 13:47:26.063159::Device List
+DEBUG:root:2023-03-21 13:48:13.926294::Device List
+DEBUG:root:2023-03-21 13:48:14.413210::Device List
+DEBUG:root:2023-03-21 13:48:18.190255::Device List
+DEBUG:root:2023-03-21 13:48:19.499003::Device List
+DEBUG:root:2023-03-21 13:49:08.962830::Device List
+DEBUG:root:2023-03-21 13:49:09.429384::Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-21 14:55:46.029487::Device Reg
+ERROR:django.request:Internal Server Error: /api/device-reg/
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 177, in device_reg
+    sensor_id = 'dev_' + device_no_str[2]
+                         ~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-21 14:57:04.897820::Device Reg
+DEBUG:root:2023-03-21 14:58:38.539784::Device Reg
+DEBUG:root:2023-03-27 16:04:16.132105::CSV Data
+DEBUG:root:2023-03-27 16:08:40.900032::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-27 16:14:01.148299::CSV Data
+DEBUG:root:2023-03-28 08:49:00.746911::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:49:35.030959::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:51:51.326764::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:52:07.794803::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:52:48.257569::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:53:17.756494::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:54:39.198441::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:56:56.566316::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:58:18.872056::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 08:59:04.366485::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 09:00:59.352968::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 09:01:46.104609::CSV Data
+DEBUG:root:2023-03-28 09:02:13.400367::CSV Data
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:32:17.599456::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:32:43.200311::All Device List
+DEBUG:root:2023-03-28 11:32:47.382447::All Device List
+DEBUG:root:2023-03-28 11:33:07.394270::All Device List
+DEBUG:root:2023-03-28 11:33:16.773623::All Device List
+DEBUG:root:2023-03-28 11:33:16.776624::All Device List
+DEBUG:root:2023-03-28 11:33:45.773405::All Device List
+DEBUG:root:2023-03-28 11:33:56.470459::All Device List
+DEBUG:root:2023-03-28 11:34:16.307020::All Device List
+DEBUG:root:2023-03-28 11:34:36.307789::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:35:56.360166::All Device List
+DEBUG:root:2023-03-28 11:36:16.349679::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:36:31.873927::All Device List
+DEBUG:root:2023-03-28 11:36:51.868418::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:38:08.379789::All Device List
+DEBUG:root:2023-03-28 11:38:28.378431::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 11:40:10.118832::All Device List
+DEBUG:root:2023-03-28 11:40:30.109871::All Device List
+DEBUG:root:2023-03-28 11:47:59.813179::All Device List
+DEBUG:root:2023-03-28 11:48:20.079647::All Device List
+DEBUG:root:2023-03-28 11:48:49.240658::All Device List
+DEBUG:root:2023-03-28 11:49:06.151944::All Device List
+DEBUG:root:2023-03-28 11:49:08.341739::All Device List
+DEBUG:root:2023-03-28 11:49:08.345739::All Device List
+DEBUG:root:2023-03-28 11:49:46.032777::All Device List
+DEBUG:root:2023-03-28 11:50:06.034325::All Device List
+DEBUG:root:2023-03-28 11:50:18.291172::All Device List
+DEBUG:root:2023-03-28 11:50:38.315080::All Device List
+DEBUG:root:2023-03-28 11:50:55.518094::All Device List
+DEBUG:root:2023-03-28 11:51:15.518476::All Device List
+DEBUG:root:2023-03-28 11:51:58.550625::All Device List
+DEBUG:root:2023-03-28 11:52:18.537440::All Device List
+DEBUG:root:2023-03-28 11:52:47.747055::All Device List
+DEBUG:root:2023-03-28 11:53:15.994108::All Device List
+DEBUG:root:2023-03-28 11:53:35.343870::All Device List
+DEBUG:root:2023-03-28 11:53:35.345869::All Device List
+DEBUG:root:2023-03-28 11:54:07.623836::All Device List
+DEBUG:root:2023-03-28 11:54:27.753550::All Device List
+DEBUG:root:2023-03-28 11:54:51.964741::All Device List
+DEBUG:root:2023-03-28 11:56:11.946021::All Device List
+DEBUG:root:2023-03-28 11:56:32.722513::All Device List
+DEBUG:root:2023-03-28 11:57:01.238340::All Device List
+DEBUG:root:2023-03-28 11:57:02.270494::All Device List
+DEBUG:root:2023-03-28 11:57:42.584149::All Device List
+DEBUG:root:2023-03-28 11:58:06.599106::All Device List
+DEBUG:root:2023-03-28 11:58:26.057576::All Device List
+WARNING:django.request:Unauthorized: /api/all-devices/
+DEBUG:root:2023-03-28 12:00:28.927614::All Device List
+DEBUG:root:2023-03-28 12:00:28.930614::All Device List
+DEBUG:root:2023-03-28 12:03:06.264848::All Device List
+DEBUG:root:2023-03-28 12:03:26.235964::All Device List
+DEBUG:root:2023-03-28 12:03:37.571429::All Device List
+DEBUG:root:2023-03-28 12:03:45.917139::All Device List
+DEBUG:root:2023-03-28 12:04:05.910679::All Device List
+DEBUG:root:2023-03-28 12:04:42.903918::All Device List
+DEBUG:root:2023-03-28 12:04:58.533762::All Device List
+ERROR:django.request:Internal Server Error: /api/all-devices/
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] An existing connection was forcibly closed by the remote host)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 87, in all_deviceList
+    sdevices = list(chain(n_devices, p_devices))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 394, in __iter__
+    self._fetch_all()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+django.db.utils.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] An existing connection was forcibly closed by the remote host)')
+ERROR:django.request:Internal Server Error: /api/all-devices/
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] An existing connection was forcibly closed by the remote host)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 87, in all_deviceList
+    sdevices = list(chain(n_devices, p_devices))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 394, in __iter__
+    self._fetch_all()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 711, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+django.db.utils.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] An existing connection was forcibly closed by the remote host)')
+DEBUG:root:2023-03-28 12:07:53.969445::All Device List
+DEBUG:root:2023-03-28 12:08:13.920390::All Device List
+DEBUG:root:2023-03-28 12:08:34.271914::All Device List
+DEBUG:root:2023-03-28 12:11:57.396525::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 12:56:08.199179::All Device List
+DEBUG:root:2023-03-28 12:56:13.345516::All Device List
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:26:59.766841::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:30:29.226796::Device Filter
+DEBUG:root:2023-03-28 14:32:51.242827::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:33:39.350468::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\smartplug\settings.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:34:46.484877::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:35:57.813220::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:37:49.415413::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:38:24.179591::Device Filter
+DEBUG:root:2023-03-28 14:39:00.821320::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:44:29.073449::Device Filter
+DEBUG:root:2023-03-28 14:44:33.906486::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:46:06.928797::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:47:07.022793::Device Filter
+DEBUG:root:2023-03-28 14:48:30.515690::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:49:39.420541::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:51:40.610370::Device Filter
+DEBUG:root:2023-03-28 14:53:11.860515::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:54:16.947405::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:54:41.876945::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:55:43.374040::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:56:56.436474::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:57:45.443702::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 14:59:45.184908::Device Filter
+DEBUG:root:2023-03-28 14:59:51.705853::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 15:01:14.652263::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 15:02:19.262309::Device Filter
+DEBUG:root:2023-03-28 15:02:33.646681::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 15:03:10.801270::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 15:04:20.092626::Device Filter
+DEBUG:root:2023-03-28 15:04:44.661782::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-28 15:07:43.741920::Device Filter
+DEBUG:root:2023-03-28 15:09:13.699825::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:35:18.664206::Device Filter
+ERROR:django.request:Internal Server Error: /api/devices-with-dateRange/Arced_AQ9
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 152, in device_filter
+    print(datetime.datetime.strptime(data['fromDate'], "%Y-%m-%d %H:%M:%S"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-03-28T10:35' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:35:50.722041::Device Filter
+ERROR:django.request:Internal Server Error: /api/devices-with-dateRange/Arced_AQ9
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 152, in device_filter
+    print(datetime.datetime.strptime(data['fromDate'], "%Y-%m-%d %H:%M"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mahim\AppData\Local\Programs\Python\Python311\Lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-03-28T10:35' does not match format '%Y-%m-%d %H:%M'
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:36:34.149183::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:38:18.416015::Device Filter
+ERROR:django.request:Internal Server Error: /api/devices-with-dateRange/Arced_AQ9
+Traceback (most recent call last):
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\New folder\smartplug\device\api\views.py", line 170, in device_filter
+    elif from_date < cur_date and to_date == cur_date:
+         ^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare datetime.datetime to datetime.date
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:39:10.436790::Device Filter
+DEBUG:root:2023-03-29 10:39:35.182098::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:42:34.128935::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:44:05.131947::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:50:37.088125::Device Filter
+DEBUG:root:2023-03-29 10:55:53.174128::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:56:50.571968::Device Filter
+DEBUG:root:2023-03-29 10:57:27.541985::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 10:58:03.652445::Device Filter
+DEBUG:root:2023-03-29 10:59:53.632119::Device Filter
+DEBUG:root:2023-03-29 11:02:52.680404::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 11:05:25.492391::Device Filter
+DEBUG:root:2023-03-29 11:06:12.216622::Device Filter
+DEBUG:root:2023-03-29 11:06:44.308520::Device Filter
+DEBUG:root:2023-03-29 11:08:08.089637::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 11:10:20.546725::Device Filter
+DEBUG:root:2023-03-29 11:11:33.935868::Device Filter
+DEBUG:root:2023-03-29 11:13:06.527275::Device Filter
+DEBUG:root:2023-03-29 11:14:13.455013::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 11:16:08.644504::Device Filter
+INFO:django.utils.autoreload:D:\projects\New folder\smartplug\device\api\views.py changed, reloading.
+DEBUG:root:2023-03-29 11:20:00.349065::Device List With Filter
+DEBUG:root:2023-03-29 11:24:39.933588::Device List With Filter
+DEBUG:root:2023-03-29 11:24:52.020944::Device List With Filter
+DEBUG:root:2023-03-29 11:26:12.076338::Device List With Filter
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /
+WARNING:django.request:Method Not Allowed: /api/download/
+DEBUG:root:2023-04-13 11:23:25.513188::CSV Data
+DEBUG:root:2023-04-13 11:23:25.514188::CSV Data:: {'token': '0d514d6722ef49698ac450eb4c9eadc7', 'date': '12-04-2023'}:: {'Content-Length': '78', 'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.32.2', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': '75cc1552-416e-4fab-b265-3916c5040b7c', 'Host': '127.0.0.1:8000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+DEBUG:root:2023-04-13 11:24:07.172239::CSV Data
+DEBUG:root:2023-04-13 11:24:07.173238::CSV Data:: {'token': '0d514d6722ef49698ac450eb4c9eadc7', 'date': '2023-04-12'}:: {'Content-Length': '78', 'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.32.2', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': '117f34e1-65c6-4afa-9f7d-729de1151eb2', 'Host': '127.0.0.1:8000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+DEBUG:root:2023-04-13 11:24:50.143897::CSV Data
+DEBUG:root:2023-04-13 11:24:50.143897::CSV Data:: {'token': '0d514d6722ef49698ac450eb4c9eadc7', 'date': '2023-04-12'}:: {'Content-Length': '78', 'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.32.2', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': '8fb2ad3c-a506-40c8-ac99-066492f34619', 'Host': '127.0.0.1:8000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
